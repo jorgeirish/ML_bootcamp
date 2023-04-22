@@ -16,7 +16,26 @@ Para determinar las columnas más relevantes utilzaré un random forest classifi
 
 ---
  
-### 
+### Algunos datos relavantes del EDA
  
+ Para valorar las importancias y relaciones (en nuestro caso las correlaciones entre columnas) es importante realizar un pairplot donde se aprecie la ubicación de nuestros datos respecto a esos ejes. En la carpeta hay diferentes gráficos relevantes.
+ Comparto (para destacar) una imagen del estudio con los puntos pintados por el target del estudio: el corte.
+ ![image](https://github.com/jorgeirish/ML_bootcamp/blob/66b07a0c352f5e72225ba67e8b08ca9cca469963/pairplot.png?raw=true])
  
 ---
+ 
+### Modelos de Machine Learning
+
+Dos modelos de machine learning propuestos en el desarrollo de este trabajo.
+* Random Forest Classifier
+* AdaBoost Classifier
+
+Para encontrar el mejor scoring nos ayudamos de un GridSearchCV con diferentes variables. El objetivo es con los datos obtener el mejor % de precesión para predecir el tipo de corte que tendrá el diamante y valorar así como de brillante es dicho diamante.
+
+---
+
+### Créditos y autoria
+
+Los datos han sido obtenidos de Kaggle (https://www.kaggle.com/datasets/shivam2503/diamonds)
+Herramientas y guía de mis profesores de bootcamp de TheBridge: Alberto, John y Alejandro
+Código e idea propias, Jorge Fernández
