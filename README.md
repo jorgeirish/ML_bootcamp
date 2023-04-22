@@ -9,7 +9,7 @@ Como ejercicio de aprendizaje de los contenidos vistos sobre Machine Learning en
 
 ###  Does it shine bright like a diamond?
 
-El objetivo (inventado) del proyecto es estudiar los datos obtenidos del dataset de Kaggle. Valorar sus columnas, correlaciones y decidir desde un punto de vista técnico-estadístico cuales son las variables que nos pueda ayudar a predecir la necesidad demandada desde negocio. A esas variables añadirles las relevantes para el área de negocio.
+El objetivo (inventado) del proyecto es estudiar los datos obtenidos del dataset de Kaggle. Valorar sus columnas, correlaciones y decidir desde un punto de vista técnico-estadístico cuales son las variables que nos puedan ayudar a predecir la necesidad demandada desde negocio. A esas variables añadirles las relevantes para el área de negocio.
 Como algunas variables son "object" las convertiremos a tipo "numeric" con el método de preprocessing LabelEnconder. Así estas variables estarán a disposición de los métodos predictivos si fuera necesario usarlas.
 Para determinar las columnas más relevantes utilzaré un random forest classifier y el método feature_importances_
 ![image](https://github.com/jorgeirish/ML_bootcamp/blob/550220057e34389fde32dd9ac73e20cdf39d5670/feature_importances_.JPG?raw=true])
@@ -30,12 +30,14 @@ Dos modelos de machine learning propuestos en el desarrollo de este trabajo.
 * Random Forest Classifier
 * AdaBoost Classifier
 
-Para encontrar el mejor scoring nos ayudamos de un GridSearchCV con diferentes variables. El objetivo es con los datos obtener el mejor % de precesión para predecir el tipo de corte que tendrá el diamante y valorar así como de brillante es dicho diamante.
+Para encontrar el mejor scoring nos ayudamos de un GridSearchCV con diferentes variables. El objetivo es con los datos obtener el mejor % de precisión para predecir el tipo de corte que tendrá el diamante y valorar así como de brillante es dicho diamante.
 
 ---
 
 ### Créditos y autoria
 
 Los datos han sido obtenidos de Kaggle (https://www.kaggle.com/datasets/shivam2503/diamonds)
+
 Herramientas y guía de mis profesores de bootcamp de TheBridge: Alberto, John y Alejandro
+
 Código e idea propias, Jorge Fernández
