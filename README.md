@@ -9,7 +9,10 @@ Como ejercicio de aprendizaje de los contenidos vistos sobre Machine Learning en
 
 ###  Does it shine bright like a diamond?
 
-![image]([https://github.com/alexhuang1117/personal_projects/blob/master/pm25_analysis/images/pollution_anom.png?raw=true](https://github.com/jorgeirish/ML_bootcamp/blob/6db8ea0fc94cdd8eda5a8264b9c452f89ccc59b7/bublle%20precio%20por%20peso%20en%20quilates%20pintados%20por%20corte%20y%20claridad.JPG))
+El objetivo (inventado) del proyecto es estudiar los datos obtenidos del dataset de Kaggle. Valorar sus columnas, correlaciones y decidir desde un punto de vista técnico-estadístico cuales son las variables que nos pueda ayudar a predecir la necesidad demandada desde negocio. A esas variables añadirles las relevantes para el área de negocio.
+Como algunas variables son "object" las convertiremos a tipo "numeric" con el método de preprocessing LabelEnconder. Así estas variables estarán a disposición de los métodos predictivos si fuera necesario usarlas.
+Para determinar las columnas más relevantes utilzaré un random forest classifier y el método feature_importances_
+![image](https://github.com/jorgeirish/ML_bootcamp/blob/550220057e34389fde32dd9ac73e20cdf39d5670/feature_importances_.JPG?raw=true])
 
 ---
  
