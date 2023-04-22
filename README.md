@@ -34,6 +34,34 @@ Para encontrar el mejor scoring nos ayudamos de un GridSearchCV con diferentes v
 
 ---
 
+### :books: Librerias 
+
+#Básicas
+
+* import pandas as pd
+* import seaborn as sns
+* import plotly.express as pl
+* import matplotlib.pyplot as plt
+
+
+#Preprocesado y métedos
+
+* from sklearn import preprocessing
+* from sklearn.preprocessing import StandardScaler
+* from sklearn.model_selection import train_test_split
+* from sklearn.metrics import confusion_matrix
+* from sklearn.metrics import accuracy_score
+* from sklearn.metrics import classification_report
+
+#Clasificadores
+
+* from sklearn.tree import DecisionTreeClassifier
+* from sklearn.ensemble import RandomForestClassifier
+* from sklearn.ensemble import AdaBoostClassifier
+* from sklearn.model_selection import GridSearchCV
+
+---
+
 ### Créditos y autoria
 
 Los datos han sido obtenidos de Kaggle (https://www.kaggle.com/datasets/shivam2503/diamonds)
